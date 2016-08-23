@@ -1,0 +1,47 @@
+
+> cldr-data@29.0.2 install /mnt/c/Users/mattadmin/Source/Repos/loopback-connector-salesforce/node_modules/cldr-data
+> node install.js
+
+GET `https://github.com/unicode-cldr/cldr-core/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-dates-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-buddhist-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-chinese-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-coptic-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-dangi-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-ethiopic-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-hebrew-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-indian-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-islamic-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-japanese-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-persian-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-cal-roc-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-localenames-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-misc-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-numbers-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-segments-modern/archive/29.0.0.zip`
+GET `https://github.com/unicode-cldr/cldr-units-modern/archive/29.0.0.zip`
+
+Received 30488K total.
+Unpacking it into `./`
+loopback-connector-salesforce@0.0.1 /mnt/c/Users/mattadmin/Source/Repos/loopback-connector-salesforce
+└─┬ cldr-data@29.0.2 
+  ├─┬ cldr-data-downloader@0.2.5 
+  │ ├── adm-zip@0.4.4 
+  │ ├── mkdirp@0.5.0 
+  │ ├─┬ nopt@3.0.6 
+  │ │ └── abbrev@1.0.9 
+  │ ├─┬ npmconf@2.0.9 
+  │ │ ├─┬ config-chain@1.1.10 
+  │ │ │ └── proto-list@1.2.4 
+  │ │ ├── ini@1.3.4 
+  │ │ ├─┬ osenv@0.1.3 
+  │ │ │ ├── os-homedir@1.0.1 
+  │ │ │ └── os-tmpdir@1.0.1 
+  │ │ ├── semver@4.3.6 
+  │ │ └── uid-number@0.0.5 
+  │ ├── progress@1.1.8 
+  │ ├── q@1.0.1 
+  │ └─┬ request-progress@0.3.1 
+  │   └── throttleit@0.0.2 
+  └── glob@5.0.15 
+
