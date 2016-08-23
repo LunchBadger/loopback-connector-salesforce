@@ -2,7 +2,7 @@
   "name": "loopback-connector-salesforce",
   "version": "0.0.1",
   "description": "Allowing basic CRUD operations on Salesforce through Loopback",
-  "main": "lib/loopback-connector-salesforce.js",
+  "main": "index.js",
   "scripts": {
     "test": "jasmine"
   },
@@ -24,6 +24,7 @@
   "dependencies": {
     "jsforce": "^1.7.0",
     "loopback-connector": "^2.4.0",
-    "string": "^3.3.1"
+    "string": "^3.3.1",
+    "strong-globalize": "^2.6.8"
   }
 }
