@@ -1,0 +1,27 @@
+{
+  "name": "loopback-connector-salesforce",
+  "version": "0.0.1",
+  "description": "Allowing basic CRUD operations on Salesforce through Loopback",
+  "main": "lib/loopback-connector-salesforce.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scvodigital/loopback-connector-salesforce.git"
+  },
+  "keywords": [
+    "loopback",
+    "salesforce",
+    "loopback-connector"
+  ],
+  "author": "Matthew Wilkes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/scvodigital/loopback-connector-salesforce/issues"
+  },
+  "homepage": "https://github.com/scvodigital/loopback-connector-salesforce#readme",
+  "dependencies": {
+    "loopback-connector": "^2.4.0"
+  }
+}
