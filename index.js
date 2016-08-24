@@ -1,4 +1,4 @@
-var SG = require('strong-globalize');
-SG.SetRootDir(__dirname);
+//var SG = require('strong-globalize');
+//SG.SetRootDir(__dirname);
 
 module.exports = require('./lib/salesforce.js');
