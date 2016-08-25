@@ -59,8 +59,9 @@ feel free to raise an issue or a pull request with your fix.
 ## Contributing
 
 There are no coding standards or any proper tests set up for this project yet. We will eventually
-be implementing a strict JSLint setup into the build and some Jasmine tests. If you want to help
-with that, please issue a Pull Request.
+be implementing a strict JSLint setup into the build and some Jasmine tests. Also, there is a severe
+lack of comments in this code. It has been developed in something of a rush and will hopefully be
+tidied up in the future. If you want to help with any of that, please issue a Pull Request.
 
 Basically just use this project and if you run into issues you can fix, SCVO would be more than
 happy to accept your help. We have limited developers and many projects on the go, and at the end
@@ -70,4 +71,10 @@ of the day this code is being used to help the Scottish Voluntary Sector!
 
 This was put together with help from Nagarjuna Surabathina's blog post
 [LoopBack Connector Development and Creating Your Own Connector](https://strongloop.com/strongblog/loopback-connector-development-and-creating-your-own-connector/).
-Cheers!
+
+I also ended up just digging through the codebase for
+[LoopBack's Microsoft SQL Server connector](https://github.com/strongloop/loopback-connector-mssql)
+to understand what the heck is going on in a SQL like connector and how to use some of the features
+such as `.buildWhere()` from filter JSON. It was
+
+Cheers to both!
