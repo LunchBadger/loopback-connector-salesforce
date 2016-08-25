@@ -4,7 +4,7 @@
 
 # About
 
-This project is brand spanking new and not fit-for-purpose so use at your risk.
+This project is brand spanking new and only just approaching being fit-for-purpose, use at your own risk.
 
 ## Ambitions
 
@@ -36,8 +36,35 @@ npm install @scvodigital/loopback-connector-salesforce --save
 
 # Usage
 
-At the moment there is none. It will hopefully just end up working like any other LoopBack
-connector. I'll keep this `README.md` up-do-date as progress is made.
+Once this is installed it works just like any other data connector. An example data source
+configuration would look like this:
+
+```
+    "salesforce": {
+        "name": "salesforce",
+        "connector": "salesforce",
+        "username": "user@org.com",
+        "password": "password+token",
+        "debug": "true"
+    }
+```
+
+Passwords should be a concatenation of the users Salesforce password and API token without the
+plus symbol. Unfortunately you cannot connect to a sandbox environement with this just yet.
+
+All basic CRUD operations should be working by now but have not been rigerously tested. This
+will come in good time. Upserting probably won't work and if you run into any limitations, please
+feel free to raise an issue or a pull request with your fix.
+
+## Contributing
+
+There are no coding standards or any proper tests set up for this project yet. We will eventually
+be implementing a strict JSLint setup into the build and some Jasmine tests. If you want to help
+with that, please issue a Pull Request.
+
+Basically just use this project and if you run into issues you can fix, SCVO would be more than
+happy to accept your help. We have limited developers and many projects on the go, and at the end
+of the day this code is being used to help the Scottish Voluntary Sector!
 
 # Notes
 
