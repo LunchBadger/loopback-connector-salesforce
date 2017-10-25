@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/scvodigital/loopback-connector-salesforce#readme",
   "dependencies": {
-    "cldr-data": "^29.0.2",
     "jsforce": "^1.7.0",
     "loopback-connector": "^2.4.0",
     "string": "^3.3.1",
